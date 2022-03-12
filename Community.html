@@ -46,8 +46,11 @@ table {
   border-radius: 25px;
   background: #C0C0C0;
   padding: 20px; 
-  width: 100px;
-  height: 80px;  
+}
+
+#img_border2{
+	border-radius: 50px;
+	width: 20%;
 }
 
 .container::after {
@@ -55,6 +58,39 @@ table {
   clear: both;
   display: table;
   }
+
+.row2 {
+  border: 2px solid black;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px 0px;
+  
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+  .row2_group {
+  border: 2px solid black;
+  background-color: lightyellow;
+  margin: 10px 0px;
+}
+
+.row2_group::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+.row2:hover, .row2_group:hover {
+background-color: lightgreen;
+border: 4px solid blue;
+cursor: pointer;
+}
+
 
 .time-right {
   float: right;
@@ -88,14 +124,66 @@ table {
 	<button style='font-size:21px' class="searchbutton">Search</button>
 	</form>
     </div>
+
+
+
+
+
+
+
 	
 <table>
  <tr>
+ <td rowspan="3">
+ <div class="row2">
+	<p><img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/robert-keane-1425463-unsplash.jpg?crop=0,0,3556,2667&wid=820&hei=615&scl=4.336585365853659" ID="img_border2" alt="Group_Profile" style="width:20%;">USER NAME (profile)</p> 
+	
+</div>
+
+<div class="row2_group">
+	<p><img src="https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" ID="img_border2" alt="Group_Profile" style="width:20%;">GROUP_1</p> 
+	<span class="time-right">6:32</span>
+</div>
+
+<div class="row2_group">
+	<p><img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/FreeFlowingRiver.jpg?crop=191,0,1322,992&wid=820&hei=615&scl=1.6130081300813008" ID="img_border2" alt="Group_Profile" style="width:20%;">GROUP_2</p> 
+	<span class="time-right">6:32</span>
+</div>
+<div class="row2_group">
+	<p><img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg?w=1575" ID="img_border2" alt="Group_Profile" style="width:20%;">USER_4</p> 
+	<span class="time-right">6:32</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</td>
 	<td><p style="font-size: 30px" ><img src="https://www.w3schools.com/css/paris.jpg" ID="img_border" alt="Group_Profile" style="width:15%;"> &nbsp &nbsp &nbsp &nbsp Group Name </p> </td>
 </tr>
 
 <tr>
-
 <td>
 	<div class="container">
 	<p> User_1</p> <hr>
@@ -119,6 +207,12 @@ table {
   <p> User_3</p> <hr>
   <p>Oh!!! Its nice enjoy your day and be happy. Open your horizon and make a fresh start. ALL THE BEST!!</p>
   <span class="time-right">6:34</span>
+</div>
+
+<div class="container darkCHAT">
+<p style="text-align:right"> User_2</p> <hr>
+  <p style="text-align:right">Yes go for it !!</p>
+  <span class="time-left">6:36</span>
 </div>
 </td></tr>
 
