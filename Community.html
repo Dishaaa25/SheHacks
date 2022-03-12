@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Community</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin:  0 auto;
+  max-width: 2000px;
+  padding: 10px 10px;
+}
+
+.search{
+	border: 30px solid pink;
+	background: pink;
+	padding: 5px 10px;
+	width: 100%;
+}
+table {
+  margin: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  
+}
+
+ tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px 10px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.darkCHAT {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+#img_border{
+  border-radius: 25px;
+  background: #C0C0C0;
+  padding: 20px; 
+  width: 100px;
+  height: 80px;  
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.searchbutton{
+	 background-color: yellow ;
+	 width: 150px;
+}
+.button{
+    background-color: yellow ;
+	width: 100px;
+}
+.button:hover{
+	background-color: lightgreen;
+	cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="search">
+	<form>
+	<input type="text" style="width: 400px; height: 34px;" placeholder="Enter your problem">
+	<button style='font-size:21px' class="searchbutton">Search</button>
+	</form>
+    </div>
+	
+<table>
+ <tr>
+	<td><p style="font-size: 30px" ><img src="https://www.w3schools.com/css/paris.jpg" ID="img_border" alt="Group_Profile" style="width:15%;"> &nbsp &nbsp &nbsp &nbsp Group Name </p> </td>
+</tr>
+
+<tr>
+
+<td>
+	<div class="container">
+	<p> User_1</p> <hr>
+	<p>Good morning everyone!!</p>
+	<span class="time-right">6:32</span>
+</div>
+
+<div class="container darkCHAT">
+<p style="text-align:right"> User_2</p> <hr>
+  <p style="text-align:right">Good Morning....How are you doing today</p>
+  <span class="time-left">6:33</span>
+</div>
+
+<div class="container">
+  <p> User_1</p> <hr>
+  <p>Today is just fine. I am going out with my friends. You advices were really helpful and made me confident.</p>
+  <span class="time-right">6:33</span>
+</div>
+
+<div class="container">
+  <p> User_3</p> <hr>
+  <p>Oh!!! Its nice enjoy your day and be happy. Open your horizon and make a fresh start. ALL THE BEST!!</p>
+  <span class="time-right">6:34</span>
+</div>
+</td></tr>
+
+	
+<tr>
+<td>
+<form>
+<input type="text" style="width: 400px; height: 34px;" placeholder="Message">
+<button style='font-size:22px' class="button">Send</button>
+</form>
+</td>
+</table>
+</body>
+</html>
