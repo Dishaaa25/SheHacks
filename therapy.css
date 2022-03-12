@@ -1,0 +1,49 @@
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: #f7e9eb;
+    animation-name: pageBackground;
+    animation-duration: 3s;
+    text-align: justify;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link{
+    position: relative;
+    list-style: none;
+    padding: 8px 12px;
+}
+.nav-icon{
+    display: inline-block;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.carousel1{
+    text-align: right;
+    padding-left: 50%;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+.portfolio{
+    align-content: flex-start;
+}
+
